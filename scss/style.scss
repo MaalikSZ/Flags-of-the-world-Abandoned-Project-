@@ -1,0 +1,26 @@
+@import 'variables.scss';
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $background-theme;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.d-none{
+    display: none;
+}
+.continent{
+    margin-bottom: 5px;
+}
+.card__answers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.score{
+    color: #17a2b8;
+}
